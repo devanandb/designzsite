@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => '128.199.222.73',
-			'database'  => 'awesomified',
+			'database'  => 'designz',
 			'username'  => 'forge',
-			'password'  => '7DP5wrg1JZXMWNHXYy82',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
