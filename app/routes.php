@@ -9,7 +9,9 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
+Route::get('/env', function(){
+	dd(App::environment());
+});
 /* PAGE CONTROLLER */
 Route::get('/', array(
 	'as' => 'home',

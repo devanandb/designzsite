@@ -47,10 +47,10 @@ return array(
 	'connections' => array(
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '128.199.222.73',
-			'database'  => 'awesomified',
-			'username'  => 'forge',
-			'password'  => '7DP5wrg1JZXMWNHXYy82',
+			'host'      => 'localhost',
+			'database'  => 'designz',
+			'username'  => 'root',
+			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
