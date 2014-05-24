@@ -23,8 +23,12 @@ $app = new Illuminate\Foundation\Application;
 | given environment, then we will automatically detect it for you.
 |
 */
-$env = $app->detectEnvironment(function(){
-	return getenv('ENV') ?: 'local';
+$env = $app->detectEnvironment(function () {
+    if (file_exists('../.production.php')) {
+        return include('../.production.php');
+    } else {
+        return 'local';
+    }
 });
 
 /*
