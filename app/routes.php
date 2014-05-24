@@ -31,7 +31,7 @@ Route::get('/contact', array(
 	'uses' => 'PageController@contact'
 ));
 
-Route::get('/people', array(
+Route::get('/aboutus', array(
 	'as' => 'people',
 	'uses' => 'PageController@people'
 ));

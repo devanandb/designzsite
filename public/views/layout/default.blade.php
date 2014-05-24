@@ -42,11 +42,13 @@
 			@endif
 
 			@yield('content')
-		<div id="footer">
+
+			@include('layout.footer')
+		<!-- <div id="footer">
 			<div class="container">
 				<p class="text-muted text-center">Designz &copy; 2014. All Rights Reserved.</p>
 			</div>
-		</div>
+		</div> -->
 
 
 		

@@ -45,11 +45,11 @@
 		<div class="row">
 			<span><i class="fa fa-quote-left"></i></span>
 
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, recusandae, incidunt maiores fugit vel praesentium consectetur iusto velit aspernatur reprehenderit voluptas harum sit magni labore eligendi facilis dolorum unde quae.
+			We ordered couple of Mementos and certificates for our team's annual meet. And as promised we recieved the order on time and must say, the quality was impeccable. Their service is awesome and would definitely recommend them!
 
 			<span><i class="fa fa-quote-right"></i></span>
 
-			<div class="quoteby">Awesome Company</div>
+			<div class="quoteby">A leading mnc</div>
 		</div>
     </div>
 </div>
