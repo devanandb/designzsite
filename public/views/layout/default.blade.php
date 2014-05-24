@@ -25,7 +25,10 @@
         {{ HTML::script('js/app.js') }}
         {{ HTML::script('js/controllers/global.js') }}
         {{ HTML::script('js/main.js') }}
+		
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
         <!-- <link href='http://fonts.googleapis.com/css?family=Arbutus+Slab' rel='stylesheet' type='text/css'> -->
 	</head>

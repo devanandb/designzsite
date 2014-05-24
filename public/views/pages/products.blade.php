@@ -14,7 +14,7 @@
 	<div class="row" ng-repeat="grouped in categorygroup">
 	
 		<div class="col-lg-3 visible-lg">
-			<div id="sidebar" data-spy="affix" class="sidebar col-lg-2 hidden-print">
+			<div id="sidebar" data-spy="affix" class="sidebar">
 				<ul>
 					<li ng-repeat="group in grouped.categories">
 						<a href="#((group.id))" class="each-link" ng-click="setActive($event)" du-smooth-scroll>((group.name))</a>
@@ -104,7 +104,7 @@
 	</div>
 
 	<div class="back-top">
-		<a href="/products#1"><i class="glyphicon glyphicon-chevron-up" du-smooth-scroll></i>adasd</a>
+		<a href="javascript:void(0)"><i class="glyphicon glyphicon-chevron-up" du-smooth-scroll></i>adasd</a>
 	</div>
 </div>
 

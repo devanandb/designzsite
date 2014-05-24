@@ -2,63 +2,80 @@
 
 @section('content')
 
-@include('layout.navbar')
+@include('layout.navbarwscroll')
 
 
-<div class="hero-blk text-center">
+<header>
 	<div class="container">
-		<!-- <div class="logo">
-			<div>D</div>
-			<div>E</div>
-			<div>S</div>
-			<div>I</div>
-			<div>G</div>
-			<div>N</div>
-			<div>Z</div>
-		
-		</div> -->
+		<div class="hero-header">What is Designz?</div>
+		<div class="hero-text">
+			A graphic design and corporate gifting solutions firm promoted by a group of like minded people with experience in specialized fields like Designing, Corporate Gifting, we at Designz cater to today's customized requirements of our clients.
+		</div>
+	</div>
+</header>
+
+<div class="maincontent content">
+    <div class="container">
+		<div class="row">        
+			<div class="col-sm-6">
+				<h3>
+					<span>
+						With our network of highly <strong>reliable vendors</strong>, we provide complete end to end Gifting solutions to our clients, reliving them from administration of the process. <br><br> 
+
+						We also specialize in organizing <strong> rewards and recognition </strong> programs for the corporate clients and help them customize and personalize these programs.
+					</span>
+				</h3>
+				<a class="btn btn-default btn-lg" href="/products">View Products</a>
+				
+			</div>
+			<div class="col-sm-6">
+				<h3>
+					<span>
+						A <strong>professional design</strong>, be it a website, a logo, a brochure, business stationery or a flyer, can change the <strong>perception</strong> about your company in the minds of your customers. <br><br> Supporting the ideology, backed by a strong design team we deliver quality designs to meet the objectives set by our clients.
+					</span>
+				</h3>
+				<a class="btn btn-default btn-lg" href="/services">View Services</a>
+				
+			</div>
+		</div>
+    </div>
+</div>
+<div class="intquote content">  
+    <div class="container">
 		<div class="row">
-			<div class="col-lg-8">
-				<p>A graphic design and corporate gifting solutions firm promoted by a group of like minded people with experience in specialized fields like Designing, Corporate Gifting, we at Designz cater to today's customized requirements of our clients.</p>
-			</div>
-			<div class="col-lg-4 hero-img">
-				<i class="glyphicon glyphicon-gift">&nbsp;</i>
-			</div>
-		</div>
-		<!-- <p>With our network of highly reliable vendors, we provide complete end to end Gifting solutions to our clients, reliving them from administration of the process. We also are specialized in organizing rewards and recognition programs for the corporate clients. Our Designing capabilities help us customize and personalize these programs.</p>
-		
-		<p>A professional design, be it a website, a logo, a brochure, business stationery or a flyer, can change the perception about your company in the minds of your customers. Supporting the ideology, backed by a strong design team we deliver quality designs to meet the objectives set by our clients.</p> -->
-	</div>
-</div>
-<div class="hero-footer">
-</div>
-<div class="main-content">
-	<div class="container">
+			<span><i class="fa fa-quote-left"></i></span>
 
-		<div class="col-lg-6">
-			<div class="each-blk">	&nbsp;
-				<i class="glyphicon glyphicon-shopping-cart">&nbsp;</i>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, recusandae, incidunt maiores fugit vel praesentium consectetur iusto velit aspernatur reprehenderit voluptas harum sit magni labore eligendi facilis dolorum unde quae.
+
+			<span><i class="fa fa-quote-right"></i></span>
+
+			<div class="quoteby">Awesome Company</div>
+		</div>
+    </div>
+</div>
+
+<div class="clients content">  
+    <div class="container">
+    <h3>Our Clients</h3>
+		<div class="row">
 			
-				<a href="/products" class="">View Products</a> 
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="each-client client-wipro">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="each-client client-ge">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="each-client client-symantec">
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<div class="each-client client-cisco">
+				</div>
 			</div>
 		</div>
-
-		<div class="col-lg-6">
-			<div class="each-blk">	&nbsp;
-				<i class="glyphicon glyphicon-compressed">&nbsp;</i>
-			
-				<a href="/services" class="">View Services</a> 
-			</div>
-		</div>
-
-		<!-- <div class="col-lg-4 col-lg-offset-2 each-blk">
-			<p>A professional design, be it a website, a logo, a brochure, business stationery or a flyer, can change the perception about your company in the minds of your customers. Supporting the ideology, backed by a strong design team we deliver quality designs to meet the objectives set by our clients.</p>
-			<a href="/services" class="">View Services</a>
-		</div> -->
-		
-		
-	</div>
+    </div>
 </div>
-
-
 @stop

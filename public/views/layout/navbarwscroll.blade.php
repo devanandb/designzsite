@@ -1,4 +1,4 @@
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="navbar navbar-inverse" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -30,7 +30,7 @@
 
 			<ul class="nav navbar-nav navbar-right">
 			
-				<li><a ng-click="viewCart()">Cart <span class="label label-danger"> ((selectedItems.length))</span></a></li>
+				<!-- <li><a ng-click="viewCart()">Cart <span class="label label-danger"> ((selectedItems.length))</span></a></li> -->
 				<li><a href="{{ URL::route('people') }}">People</a></li>
 				<li><a href="{{ URL::route('contact') }}">Contact</a></li>
 				
