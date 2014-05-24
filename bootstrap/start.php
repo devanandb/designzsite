@@ -24,9 +24,13 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(function(){
-	return getenv('ENV') ?: 'local';
-});
+$env = $app->detectEnvironment(array(
+
+	'local' => array('localhost:8000'),
+	'production' => array('128.199.222.73'),
+
+
+));
 
 /*
 |--------------------------------------------------------------------------
