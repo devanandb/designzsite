@@ -23,14 +23,11 @@ $app = new Illuminate\Foundation\Application;
 | given environment, then we will automatically detect it for you.
 |
 */
+putenv('ENV=local');
 
-$env = $app->detectEnvironment(array(
-
-	'local' => array('localhost:8000'),
-	'production' => array('128.199.222.73'),
-
-
-));
+$env = $app->detectEnvironment(function(){
+	return getenv('ENV') ?: 'production';
+});
 
 /*
 |--------------------------------------------------------------------------
