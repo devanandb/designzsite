@@ -9,7 +9,11 @@
 	<div class="container">
 		<div class="hero-header">What is Designz?</div>
 		<div class="hero-text">
-			A graphic design and corporate gifting solutions firm promoted by a group of like minded people with experience in specialized fields like Designing, Corporate Gifting, we at Designz cater to today's customized requirements of our clients.
+			<!-- A graphic design and corporate gifting solutions firm promoted by a group of like minded people with experience in specialized fields like Designing, Corporate Gifting, we at Designz cater to today's customized requirements of our clients. -->
+
+			Designz is a graphic design and corporate gifting solutions firm promoted by a group of like minded experts in specialized fields like Designing, Corporate Gifting, we at designz, cater to today's customized requirements of our clients. 
+			<br><br> 
+			What sets us apart you ask? Well, We put our hearts and souls into making every project we undertake the best it can be and we dont stop until we get there.
 		</div>
 	</div>
 </header>
