@@ -31,7 +31,7 @@
 			<ul class="nav navbar-nav navbar-right">
 			
 				<!-- <li><a ng-click="viewCart()">Cart <span class="label label-danger"> ((selectedItems.length))</span></a></li> -->
-				<li><a href="{{ URL::route('people') }}">People</a></li>
+				<li><a href="{{ URL::route('people') }}">About Us</a></li>
 				<li><a href="{{ URL::route('contact') }}">Contact</a></li>
 				
 			</ul>

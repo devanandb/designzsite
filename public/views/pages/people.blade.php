@@ -6,10 +6,57 @@
 
 <header class="opage">
 	<div class="container">
-		<div class="hero-header">Corporate Gifting</div>
+		<div class="hero-header">What sets us apart you ask?</div>
 		<div class="hero-text">
-			We have a wide selection of gifts ranging from tangible items in Home Appliances, Electronic products, Home utility products, Silverware, Premium Stationery, Leather items to Experiences like Holiday packages, Tickets for Events etc. We can further personalize each item to cater your need.
+			Well, we put our hearts and souls into making every project we undertake the best it can be and we dont stop until we get there.
 		</div>
 	</div>
 </header>
+
+<div class="maincontent content">
+    <div class="container">
+		<div class="row">        
+			<div class="col-lg-6 col-sm-6">
+				<div class="row">
+					<div class="each-people col-lg-5">
+						<img src="img/umesh.jpg" alt="">
+					</div>
+					<div class="people-det col-lg-5">
+						UMESH K G REDDY
+						<div class="desc">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, necessitatibus, odio, mollitia.
+						</div>
+						<div class="social-links">
+							<span><i class="fa fa-facebook-square"></i></span>
+							<span><i class="fa fa-linkedin-square"></i></span>
+							<span><i class="fa fa-skype"></i></span>
+							<span><i class="fa fa-google-plus-square"></i></span>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<div class="col-lg-6 col-sm-6">
+				<div class="row">
+					<div class="each-people col-lg-5">
+						<img src="img/hamsa.jpg" alt="">
+					</div>
+					<div class="people-det col-lg-5">
+						HAMSA M REDDY
+						<div class="desc">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, consequatur, tempore non expedita.
+						</div>
+						<div class="social-links">
+							<span><i class="fa fa-facebook-square"></i></span>
+							<span><i class="fa fa-linkedin-square"></i></span>
+							<span><i class="fa fa-skype"></i></span>
+							<span><i class="fa fa-google-plus-square"></i></span>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+    </div>
+</div>
 @stop
